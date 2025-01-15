@@ -2,7 +2,25 @@
 This project aims to analyze customer purchase behavior, segment customers using clustering techniques, and recommend products using AI models. The project includes raw data processing, clustering, and building a recommendation system based on purchase history.
 
 ## Project Structure
-AI_Customer_Analysis/ | ├── data/ │ ├── raw/ │ │ └── raw_dataset.csv │ ├── processed/ │ ├── processed_file1.csv │ ├── processed_file2.csv │ └── processed_file3.csv │ ├── notebooks/ │ ├── data_analysis.ipynb │ ├── customer_classification.ipynb │ ├── product_recommendation.ipynb │ └── summary_report.ipynb │ ├── reports/ │ └── findings_report.pdf │ ├── README.md └── .gitignore
+
+Customer-Purchase-Analysis/
+├── data/
+│   ├── raw/
+│   │   └── reviews.json
+│   ├── processed/
+│       ├── customer.csv
+│       ├── order.csv
+        ├── product.csv   
+│       └── reviews.csv
+├── notebooks/
+│   ├── Data_Preprocessing_nu.ipynb
+│   ├── escriptive_An.ipynb
+│   ├── Clustering.ipynb
+│   └── sAI_Product_Recommendatio.ipynb
+├── reports/
+│   └── Customer Retail Analysis.pdf
+├── README.md
+└── .gitignore
 
 
 ---
